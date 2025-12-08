@@ -12,23 +12,29 @@ This repository contains machine learning and deep learning models designed to p
 
 \### 1. Tabular Models
 
+
+
 \*\*File:\*\* `tabular\_LR\_RF\_XGB\_MLP.py`
 
 
 
 This script handles the training and evaluation of models based on engineered tabular features. It includes the following algorithms:
 
-\* \*\*Logistic Regression (LR)\*\*
 
-\* \*\*Random Forest (RF)\*\*
 
-\* \*\*XGBoost (XGB)\*\*
+\- \*\*Logistic Regression (LR)\*\*
 
-\* \*\*Multi-Layer Perceptron (MLP)\*\*
+\- \*\*Random Forest (RF)\*\*
+
+\- \*\*XGBoost (XGB)\*\*
+
+\- \*\*Multi-Layer Perceptron (MLP)\*\*
 
 
 
 \### 2. Deep Sequence Models
+
+
 
 \*\*File:\*\* `deep\_sequence\_models\_gru\_cnn.py`
 
@@ -36,13 +42,17 @@ This script handles the training and evaluation of models based on engineered ta
 
 This script implements deep learning architectures designed to learn from historical sequence data:
 
-\* \*\*Gated Recurrent Unit (GRU)\*\*: For capturing temporal dependencies in match history.
 
-\* \*\*Convolutional Neural Network (CNN)\*\*: For extracting local patterns from sequence windows.
+
+\- \*\*Gated Recurrent Unit (GRU)\*\*: For capturing temporal dependencies in match history.
+
+\- \*\*Convolutional Neural Network (CNN)\*\*: For extracting local patterns from sequence windows.
 
 
 
 \### 3. Visualization
+
+
 
 \*\*File:\*\* `Plot.py`
 
@@ -50,11 +60,13 @@ This script implements deep learning architectures designed to learn from histor
 
 A utility script used to generate performance visualizations, including:
 
-\* Calibration curves (Reliability diagrams)
 
-\* Confusion matrices
 
-\* Metric comparison plots
+\- Calibration curves (Reliability diagrams)
+
+\- Confusion matrices
+
+\- Metric comparison plots
 
 
 
@@ -62,13 +74,13 @@ A utility script used to generate performance visualizations, including:
 
 
 
-1\.  Clone the repository.
+1\. Clone the repository.
 
-2\.  Install the required dependencies using the provided requirements file:
+2\. Install the required dependencies using the provided requirements file:
 
 
 
-```bash
+&nbsp;   pip install -r requirements.txt
 
-pip install -r requirements.txt
+
 
