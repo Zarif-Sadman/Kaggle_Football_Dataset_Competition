@@ -188,8 +188,7 @@ def load_and_merge(data_dir: Path) -> pd.DataFrame:
 
 def build_features(df_raw: pd.DataFrame):
     """
-    Implements Data Preparation and Feature Aggregation from the proposal,
-    plus some additional engineered features inspired by Kaggle code.
+    Implementing Data Preparation and Feature Aggregation
 
     - chronological consistency
     - aggregated stats (goals, ratings, W/D/L rates, home%, cup%)
